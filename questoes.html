@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+    </head>
+    <body>
+
+        <h1>Questão 1</h1>
+        <p id="id1"></p>
+        <br>
+        <h1>Questão 2</h1>
+        <label><p>Insira um número para testar se o valor pertence à sequência de Fibonacci:</p></label>
+        <input id="id2Input" type="number">
+            <button onclick="sequenciaFibonacci()">Testar</button>
+        </input> 
+        <p id="id2"></p>
+        <br>
+        <h1>Questão 3</h1>
+        <p id="id3">a) 1, 3, 5, 7, _9_<br>
+
+            b) 2, 4, 8, 16, 32, 64, _128_<br>
+            
+            c) 0, 1, 4, 9, 16, 25, 36, _49_<br>
+            
+            d) 4, 16, 36, 64, _100_<br>
+            
+            e) 1, 1, 2, 3, 5, 8, _13_<br>
+            
+            f) 2, 10, 12, 16, 17, 18, 19, _200_</p><br>
+
+        <br>
+        <h1>Questão 4</h1>
+        <p id="id4">Determinando o encontro dos veículos, definí o carro como referência inicial e o caminhão então como 100km:
+
+            x1 = v1.t
+            
+            x2 = 100km - v2t
+            <br>
+            O tempo de viajem do caminhão considerando que ele teria viajado direto:
+            
+            td = 100 km / 80km/h = 1,25h
+            <br>
+            Agora preciso ver quanto tempo se perde nos pedágios e a velocidade do caminhão:
+            
+            t = 1,25h + 0,17h => 1,42h
+            v2 = 100 / 1,42 => 70,6km/h
+            <br>
+            Juntando os dados:
+            
+            t = x1.v1;
+            
+            t = (x2 - 100km) / -v2;
+            
+            x1 = x2;
+            <br>
+            então:
+            
+            x = v1.100km / (v1 + v2) = (100km/h.100km) / (110km/h + 70,6km/h)
+            <br>
+            x = 60,9km/h</p>
+        <br>
+        <h1>Questão 5</h1>
+        <label><p>Insira um texto para invertê-lo:</p></label>
+        <input id="id5Input" type="text">
+            <button onclick="inverterString()">Inverter string</button>
+        </input> 
+        <p id="id5"></p>
+        <br>
+
+        <script src="js.js"></script>
+    </body>
+</html>
